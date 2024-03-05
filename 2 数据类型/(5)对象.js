@@ -79,13 +79,13 @@
 // console.log(Object.keys(obj1));
 // console.log(Object.values(obj1));
 
-let obj1 = Object.defineProperty({}, 'key1', {
-    value: 'value1',
-    writable: false,
-    enumerable: true,
-    configurable: false
-});
-
-console.log('key1' in obj1);
-console.log(obj1.hasOwnProperty('toString'));
+// let obj1 = Object.defineProperty({}, 'key1', {
+//     value: 'value1',
+//     writable: false,
+//     enumerable: true,
+//     configurable: false
+// });
+//
+// console.log('key1' in obj1);
+// console.log(obj1.hasOwnProperty('toString'));
 
