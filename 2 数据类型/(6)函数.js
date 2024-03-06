@@ -38,16 +38,16 @@
 //
 // console.log(test.length)
 
-let multiline = function (fn) {
-    let arr = fn.toString().split('\n');
-    console.log(arr)
-    console.log(arr.slice(1, arr.length - 1))
-    return arr.slice(1, arr.length - 1).join('\n');
-};
-
-function f() {/*
-  这是一个
-  多行注释
-*/}
-
-console.log(multiline(f));
+// let multiline = function (fn) {
+//     let arr = fn.toString().split('\n');
+//     console.log(arr)
+//     console.log(arr.slice(1, arr.length - 1))
+//     return arr.slice(1, arr.length - 1).join('\n');
+// };
+//
+// function f() {/*
+//   这是一个
+//   多行注释
+// */}
+//
+// console.log(multiline(f));
