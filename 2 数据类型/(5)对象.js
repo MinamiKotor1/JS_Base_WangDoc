@@ -89,3 +89,18 @@
 // console.log('key1' in obj1);
 // console.log(obj1.hasOwnProperty('toString'));
 
+// let Amy = {
+//     age:18,
+//     name:'Amy',
+//     gender:'female'
+// }
+
+// Amy.height = 151
+//
+// with (Amy) {
+//     console.log(age);
+//     console.log(name);
+//     console.log(gender);
+//     console.log(height)
+// }
+
