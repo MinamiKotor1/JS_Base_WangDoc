@@ -52,10 +52,11 @@
 //
 // console.log(multiline(f));
 
-let v = 1;
+// let v = 1;
+//
+// function f() {
+//     console.log(v)
+// }
+//
+// f();
 
-function f() {
-    console.log(v)
-}
-
-f();
