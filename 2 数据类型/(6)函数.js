@@ -51,3 +51,11 @@
 // */}
 //
 // console.log(multiline(f));
+
+let v = 1;
+
+function f() {
+    console.log(v)
+}
+
+f();
