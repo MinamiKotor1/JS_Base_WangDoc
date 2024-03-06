@@ -1,5 +1,11 @@
-let print = function print(x){
-    console.log(x);
-}
+// let print = function print(x){
+//     console.log(x);
+// }
+//
+// print('hello world');
 
-print('hello world');
+f();
+
+let f = function () {
+
+}
