@@ -106,3 +106,22 @@
 // f(1,2);
 // f(undefined,2,3)
 
+// function f(a, b) {
+//     'use strict';
+//     console.log(arguments[0]);
+//     console.log(arguments[1]);
+//     arguments[0] = 3;
+//     arguments[1] = 4;
+//     return a + b;
+// }
+//
+// console.log(f(1, 2));
+
+// var f = function(a, b) {
+//     'use strict'; // 开启严格模式
+//     arguments[0] = 3;
+//     arguments[1] = 2;
+//     return a + b;
+// }
+//
+// console.log(f(1, 1));
