@@ -71,3 +71,38 @@
 // }
 //
 // f(3);
+
+// let x = function () {
+//     console.log(a)
+// };
+//
+// function y(f) {
+//     let a = 2;
+//     f();
+// }
+//
+// y(x);
+
+// function foo() {
+//     let x = 1;
+//
+//     function bar() {
+//         console.log(x);
+//     }
+//
+//     return bar;
+// }
+//
+// let x = 2;
+// let f = foo();
+// f();
+
+// function f(a,b,c) {
+//     console.log(a);
+// }
+//
+// f(1,2,3);
+// f(1);
+// f(1,2);
+// f(undefined,2,3)
+
