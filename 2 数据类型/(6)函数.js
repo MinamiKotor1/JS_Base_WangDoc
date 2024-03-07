@@ -59,3 +59,15 @@
 // }
 //
 // f();
+
+// let a = 1;
+// let x = function (a) {
+//     console.log(a);
+// };
+//
+// function f(y) {
+//     let a = 2;
+//     x(y);
+// }
+//
+// f(3);
