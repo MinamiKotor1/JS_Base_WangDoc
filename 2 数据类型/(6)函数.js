@@ -143,3 +143,26 @@
 //
 // console.log(Array.prototype.slice.call(a));
 // console.log(a);
+
+// function Person(name) {
+//     let _age;
+//
+//     function setAge(n) {
+//         _age = n;
+//     }
+//
+//     function getAge(n) {
+//         return _age;
+//     }
+//
+//     return {
+//         name: name,
+//         getAge: getAge,
+//         setAge: setAge
+//     }
+// }
+//
+// let p1 = Person('ALice');
+// p1.setAge(18);
+// console.log(p1.getAge());
+// console.log(p1);
