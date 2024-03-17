@@ -125,3 +125,21 @@
 // }
 //
 // console.log(f(1, 1));
+//
+// let f = function (a, b) {
+//     console.log(arguments)
+//     let args = Array.prototype.slice.call(arguments)
+//     console.log(args)
+//     return a + b;
+// }
+//
+// f(1, 2)
+//
+// let a = {
+//     length: 2,
+//     '0': 1,
+//     '1': 2
+// }
+//
+// console.log(Array.prototype.slice.call(a));
+// console.log(a);
